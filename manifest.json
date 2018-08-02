@@ -1,0 +1,14 @@
+{
+  "short_name": "Cleaner Asana",
+  "name": "Cleaner Asana",
+  "manifest_version": 2,
+  "version": "0.1.0",
+  "default_icon": {
+      "19": "images/icons/icon_19.png",
+      "38": "images/icons/icon_38.png"
+  },
+ "content_scripts": [{
+  "js": ["main.js"],
+  "matches": ["https://app.asana.com/*"]
+}]
+}
