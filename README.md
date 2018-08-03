@@ -9,9 +9,9 @@ Coming soon
 1. `git clone git@github.com:psherwinnicholls/cleanerasana.git`
 2. Open Chrome 
 3. Click the three dots next to the URL bar 
-4. Navigate to `More Tools > Extensions`
-5. Turn on Developer Mode
-6. Click `Load unpacked`
+4. Navigate to `More Tools > Extensions` or type `chrome://extensions/` into the URL bar
+5. Turn on Developer Mode (top right)
+6. Click `LOAD UNPACKED`
 7. Upload this folder
 
 To see any changes you make live, you'll need to refresh the extension in the extensions page
