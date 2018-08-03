@@ -7,8 +7,14 @@
       "19": "images/icons/icon_19.png",
       "38": "images/icons/icon_38.png"
   },
- "content_scripts": [{
-  "js": ["main.js"],
-  "matches": ["https://app.asana.com/*"]
-}]
+  "browser_action":{
+    "default_popup":"index.html"
+  },
+  "content_scripts": [{
+    "js": ["main.js"],
+    "matches": ["https://app.asana.com/*"]
+  }],
+  "permissions": [
+   "storage"
+ ]
 }
