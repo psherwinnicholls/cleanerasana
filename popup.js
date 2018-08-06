@@ -18,7 +18,6 @@ function switchEnabled(){
   document.getElementById('toggle').addEventListener('click', function(e){
     // set enabled to true/false
     var enabled = e.target.checked
-    console.log(enabled)
     // sync that value with local storage
     chrome.storage.sync.set({enabled: enabled});
   })
