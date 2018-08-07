@@ -5,7 +5,6 @@
   "use strict";
 
   // cleanAsana by default
-  location.reload();
   setEnabled(true);
 
   // when we notice a change in chrome storage
