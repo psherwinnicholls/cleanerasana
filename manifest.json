@@ -3,12 +3,13 @@
   "name": "Cleaner Asana",
   "manifest_version": 2,
   "version": "0.1.0",
-  "default_icon": {
-      "19": "images/icons/icon_19.png",
-      "38": "images/icons/icon_38.png"
-  },
   "browser_action":{
     "default_popup":"index.html"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
   },
   "content_scripts": [{
     "js": ["main.js"],
