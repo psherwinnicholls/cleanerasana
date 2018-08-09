@@ -2,8 +2,7 @@
 I noticed that Asana is visually quite complicated, especially to those who are new to task management. To help with this I've created a Chrome Extension which simplifies the UI to hopefully reduce the cognitive load of someone trying to organise their tasks!
 
 ## Install and use
-<!-- [Download Cleaner Asana on the Chrome Webstore]() -->
-Coming soon
+[Download Cleaner Asana on the Chrome Webstore](https://chrome.google.com/webstore/detail/cleaner-asana/dcmogcohhefjhokcopianocadbadkkle) 
 
 ## Run locally
 1. `git clone git@github.com:psherwinnicholls/cleanerasana.git`
