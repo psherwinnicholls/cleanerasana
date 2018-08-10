@@ -28,11 +28,14 @@
     // give it an id (so we can delete it later)
     sheet.id = "cleanstylesheet";
 
-    // close the sidebar by default, show the sidebar button
-    var sidebar = document.getElementsByClassName('sidebar-mountNode')
-    sidebar[0].classList.add('is-collapsed');
-    var sidebarButton = document.getElementsByClassName('ExpandSidebarButton')
-    sidebarButton[0].classList.remove('ExpandSidebarButton--shouldHide')
+    // close the sidebar by default by programatically clicking on the burger icon
+    var ExpandSidebarButton = document.getElementsByClassName('ExpandSidebarButton');
+    var sidebarIsOpen = ExpandSidebarButton[0].classList.contains('ExpandSidebarButton--shouldHide');
+    if(sidebarIsOpen){
+      ExpandSidebarButton[0].click();
+    }
+
+
 
     // add these styles to the stylesheet
     sheet.innerHTML = `
