@@ -2,7 +2,7 @@
   "short_name": "Cleaner Asana",
   "name": "Cleaner Asana",
   "manifest_version": 2,
-  "version": "0.1.0",
+  "version": "0.1.2",
   "browser_action":{
     "default_popup":"index.html"
   },
